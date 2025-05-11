@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luiz 💚 Julia</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e0ffe0, #f0fff0);
+      color: #2e7d32;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-top: 40px;
+      color: #1b5e20;
+    }
+
+    section {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 600px;
+      background: #ffffffcc;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #388e3c;
+      font-size: 1.6em;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .contador {
+      font-size: 1.2em;
+      margin-top: 20px;
+      background-color: rgba(46, 125, 50, 0.2);
+      padding: 12px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    iframe, audio {
+      margin-top: 15px;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 15px;
+      border: none;
+      box-shadow: 0 0 0px rgba(0,0,0,0.1);
+    }
+
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #66bb6a;
+      transform: rotate(45deg);
+      animation: float 10s linear infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #66bb6a;
+      border-radius: 50%;
+    }
+
+    .heart::before { top: -10px; left: 0; }
+    .heart::after { top: 0; left: -10px; }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) rotate(45deg); opacity: 1; }
+      100% { transform: translateY(-10vh) rotate(45deg); opacity: 0; }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      section {
+        padding: 15px;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      .contador {
+        font-size: 1em;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts" id="hearts"></div>
+
+  <h1>Luiz 💚 Julia</h1>
+
+  <section>
+    <p>Estamos namorando desde <strong>05 de Maio de 2025</strong>, e finalmente sinto que encontrei a mulher da minha vida.</p>
+    <div class="contador" id="contador"></div>
+  </section>
+
+  <section>
+    <h2>A Biblioteca</h2>
+    <p>Lembro de quando virou rotina virmos ate a biblioteca, e incrivel ter esse momento so nosso de segunda a sexta, fico contando os segundos todo dia pra essa hora chegar, amo cada segundo ao seu lado, amo cada beijo, cada abraço, cada chamego simplesmente amo tudo.</p>
+  </section>
+
+  <section>
+    <h2>Nosso Primeiro "Rolê"?</h2>
+    <p>Não tives um rolê mesmo ainda, mais vamos ter quarta inclusive to muito ansioso akakak, mais considero nossas conversas na biblioteca ou as vezes q ficamos juntos no onibus um role, e amo todos esses nossos "roles" ❣️ .</p>
+  </section>
+
+  <section>
+    <h2>Os Obstáculos</h2>
+    <p>Nem tudo foi facil desde começo, mais superamos muitos obstaculos desde la, ainda tem uns mas tenho certeza que iremos conseguir, iremos transformar isso em algo que va alem da escola, e pode ter certeza que nao irei desistir tão facil.</p>
+  </section>
+
+  <section>
+    <h2>Como e o meu amor por você</h2>
+    <p>Eu te amo muito mais do que com a mente e o coração, eu amo você com a minha alma, porque o coração e a mente um dia morreram, e alma vai continuar, igual meu amor por você que sempre continuara existindo, Te amo vida ❣️.</p>
+  </section>
+
+  <section>
+    <h2>Oque eu sou capaz de fazer por você?</h2>
+    <p>Eu vou ter que resumir muito essa parte... mas eu sou capaz de deixar tudo de lado quando você precisar de mim, sou capaz de fazer loucuras pra realizar o seu menor pedido ou desejo, sou capaz de bolar o plano infalível pra convencer sua família a gostar de mim, sou capaz de ir correndo até Casa Branca só pra te ver por poucos segundos, porque sei que isso já alegraria o meu dia. Se for pra falar mais, quero que seja pessoalmente.</p>
+  </section>
+
+  <section>
+    <h2>Declaração melosa</h2>
+    <p>Às vezes, eu fico relembrando os nossos momentos, e não é mais segredo que, só de pensar em você, já sai um sorriso bobo de mim, né? Kkk, adoro tanto nossos momentos juntos, cada segundo, minuto, hora... fica tudo guardado na minha cabeça, e eu nunca vou esquecer desses momentos. Eu te amo, amo muito mesmo. Você me faz sentir amado e importante, você me mostra que realmente alguém se importa comigo, por sempre querer o meu melhor. Você é meu porto seguro. .</p>
+  </section>
+
+
+
+  <section>
+    <h2>As Nossas Músicas❣️</h2>
+    <!-- Embed do Spotify -->
+    <iframe src="https://open.spotify.com/embed/track/7o2CTH4ctstm8TNelqjb51?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/7xos4aG6wgAIPAtVLeSznN?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  
+
+  <script>
+    // Corações flutuantes
+    const hearts = document.getElementById("hearts");
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = (5 + Math.random() * 5) + "s";
+      hearts.appendChild(heart);
+      setTimeout(() => hearts.removeChild(heart), 10000);
+    }
+    setInterval(createHeart, 300);
+
+    // Contador de tempo
+    function atualizarContador() {
+      const inicio = new Date("2025-05-05");
+      const agora = new Date();
+      const diff = agora - inicio;
+      const dias = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutos = Math.floor((diff / (1000 * 60)) % 60);
+      const segundos = Math.floor((diff / 1000) % 60);
+
+      document.getElementById("contador").innerText =
+        `Estamos juntos há ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos 💚`;
+    }
+    setInterval(atualizarContador, 1000);
+    atualizarContador();
+  </script>
+</body>
+</html>
